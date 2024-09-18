@@ -4,6 +4,7 @@
   <meta charset="utf-8" />
 </head>
 
+<!--LOGIN CSS-->
 <style>
 
   /*Desktop*/
@@ -211,8 +212,9 @@
 
   .error {
     color: #ff0000;
-    display: block;
-    width: 288px;
+    text-align: center;
+    font-size: 0.8rem;
+    margin-top: 0;
   }
 
   /*Tablet
@@ -352,14 +354,15 @@
 </style>
 
 <body>
+
+  <!--LOGIN HTML-->
   <div class="outer-container">
     <div class="main-container content">
-
       <div class="login-container">
         <img src="../assets/logo.png" alt="backgroundImage" />
         <h2 id="title">Login</h2>
         <label id="domain-list-label" style="display: none">
-          <!--<span id="DomainLabel">Domain</span>-->
+          <span id="DomainLabel">Domain</span>
           <select id="domain-list">
             <option value="">Default Extension</option>
           </select>
@@ -392,11 +395,8 @@
         <button id="login-button" type="button">Entrar</button>
         <a href="https://jkss.com.br/info.php">Precisa de Ajuda?</a>
     </div>
-
     </div>
   </div>
-
-
   <footer style="display: flex; flex-direction: column; justify-content: center; align-items: center;">
     <div class="footer">
 
@@ -448,7 +448,9 @@
     </div>
     <p class="copyright">© Copyright 2024 JK Soluções e Serviços. Todos os direitos reservados.</p>
   </footer>
-  <!--  <script>
+
+  <!--LOGIN SCRIPT-->
+  <script>
       var __localizations = {
           "Domain": {
               "en": "Domain",
@@ -968,8 +970,15 @@
               return "ws://" + window.location.host;
           }
       }
-  </script>-->
+  </script>
 
+
+
+ <!------------------------------------------------------------------------------------->
+
+
+
+  <!--KEYBOARD HTML-->
   <!--<div class="keyboardcontainer hidden">
     <div class="keyboard-toggle">
       <svg
@@ -4885,6 +4894,7 @@
     </div>
   </div>-->
 
+  <!--KEYBOARD CSS-->
   <style>
     .keyboardcontainer {
       margin-bottom: 0;
@@ -5164,7 +5174,8 @@
     }
   </style>
 
-  <!--<script>
+  <!--KEYBOARD SCRIPT-->
+  <script>
       window.addEventListener('load', function () {
 
           var element = document.getElementById('TcHmiKeyboard');
@@ -7022,5 +7033,5 @@
       };
 
 
-  </script> -->
+  </script>
 </body>
